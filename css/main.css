@@ -1,0 +1,90 @@
+body {
+    background-color: #da9be585;
+}
+.content {
+    width: 38%;
+    margin: 2% auto;
+}
+.profile-img {
+    height: 162px;
+    border: 5px solid black;
+    border-radius: 83px;
+}
+.main-text {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.icon-size {
+    font-size: 21px;
+    padding-right: 5px;
+}
+.sub-text {
+    font-size: 21px;
+    font-weight: bold;
+}
+.row-style {
+    margin: 2% auto;
+}
+.header-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.skills-text {
+    font-size: 15px;
+    font-weight: 600;
+}
+.project-dtls-text {
+    font-size: 15px;
+    font-weight: 600;
+}
+.project-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+ul {
+    padding-inline-start: 27px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 80%;
+        margin: 2% auto;
+    }
+}   
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 92%;
+        margin: 9% auto;
+    }
+    .profile-img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 9px;
+    }
+    .icon-size {
+        font-size: 17px;
+        padding-right: 3px;
+    }
+    .main-text {
+        font-size: 27px;
+    }
+    .sub-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .icon-size {
+        font-size: 16px;
+        padding-right: 3px;
+    }
+    .main-text {
+        font-size: 23px;
+    }
+    .sub-text {
+        font-size: 14px;
+    }
+}
