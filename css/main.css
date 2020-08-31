@@ -77,6 +77,9 @@ ul {
     }
 }
 @media only screen and (max-width: 360px) {
+	.content {
+        width: 97%;
+    }
     .icon-size {
         font-size: 16px;
         padding-right: 3px;
