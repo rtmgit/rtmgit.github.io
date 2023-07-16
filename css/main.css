@@ -1,93 +1,169 @@
-body {
-    background-color: #da9be585;
-}
-.content {
-    width: 38%;
-    margin: 2% auto;
-}
-.profile-img {
-    height: 162px;
-    border: 5px solid black;
-    border-radius: 83px;
-}
-.main-text {
-    font-size: 34px;
-    font-weight: bold;
-    padding-top: 5px;
-}
-.icon-size {
-    font-size: 21px;
-    padding-right: 5px;
-}
-.sub-text {
-    font-size: 21px;
-    font-weight: bold;
-}
-.row-style {
-    margin: 2% auto;
-}
-.header-text {
-    font-size: 18px;
-    font-weight: bold;
-}
-.skills-text {
-    font-size: 15px;
+.resume-container {
+    max-width: 780px;
+    margin: auto;
+    font-size: 14px;
+    color: #424242;
+    font-family: "Monaco", monospace;
     font-weight: 600;
 }
-.project-dtls-text {
-    font-size: 15px;
-    font-weight: 600;
+
+.header-section {
+    display: flex;
+    justify-content: center;
 }
-.project-header {
-    font-size: 16px;
-    font-weight: bold;
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #17711e;
+    border-radius: 15px;
 }
-ul {
-    padding-inline-start: 27px;
-    font-size: 15px;
-    font-weight: 600;
+
+.header-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 12px;
+}
+
+.header-details h1 {
     margin: 0px;
 }
 
-@media screen and (max-width: 1024px) {
-    .content {
-        width: 80%;
-        margin: 2% auto;
+h1 {
+    font-size: 36px;
+    color: #17711e;
+}
+
+.header-details .about-me {
+    margin: 0px;
+}
+
+.reach-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reach-me-at {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
+
+.svg-image {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.social-media-details {
+    margin-left: 9px;
+}
+
+h3 {
+    margin: 9px 0;
+    color: #17711e;
+    font-size: 18px;
+}
+
+ul {
+    margin: 7px 0;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+b {
+    color: black;
+    font-weight: bolder;
+}
+
+.content-section {
+    margin-top: 18px;
+}
+
+.highlight-text {
+    color: forestgreen;
+}
+
+@media screen and (max-width: 800px) {
+    .resume-container {
+        margin: 9px;
     }
-}   
-@media only screen and (max-width: 600px) {
-    .content {
-        width: 92%;
-        margin: 9% auto;
+
+    svg {
+        height: 25px;
+        width: 25px;
+        margin-right: 9px;
     }
-    .profile-img {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 9px;
+
+    .svg-image {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
     }
-    .icon-size {
-        font-size: 17px;
-        padding-right: 3px;
+
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .main-text {
-        font-size: 27px;
+
+    .header-details {
+        margin: 0px;
+        min-height: 225px;
     }
-    .sub-text {
-        font-size: 17px;
+
+    .profile-pic {
+        height: 175px;
+        width: 175px;
+        border: 6px solid #17711e;
+        border-radius: 87px;
+    }
+
+    .profile-name {
+        align-self: center;
+        text-transform: uppercase;
+    }
+
+    .about-me {
+        align-self: center;
+    }
+
+    .reach-me {
+        flex-direction: column;
+    }
+
+    .reach-me-at {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .social-media-details {
+        margin-left: 0px;
+    }
+
+    ul {
+        padding-left: 25px;
+    }
+
+    .content-section {
+        margin-top: 0px;
     }
 }
-@media only screen and (max-width: 360px) {
-	.content {
-        width: 97%;
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 32px;
     }
-    .icon-size {
-        font-size: 16px;
-        padding-right: 3px;
-    }
-    .main-text {
-        font-size: 23px;
-    }
-    .sub-text {
-        font-size: 14px;
+    .about-me {
+        font-size: 25px;
     }
 }
